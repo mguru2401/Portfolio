@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Flight Ticket Booking App",
+    "imageSrc": "projects/flight-ticket-booking.png",
+    "description": "Booking Application with Payment gateway.",
+    "skills": ["React", "Express", "Node", "Razorpay"],
+    "demo": "https://kiwi-flight-booking.vercel.app/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Quiz App",
+    "imageSrc": "projects/quiz-app.png",
+    "description": "project made to learn the CRUD and Redux.",
+    "skills": ["React", "Express", "Node", "Redux"],
+    "demo": "https://mern-quiz-app-frontend.vercel.app/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Blogify",
+    "imageSrc": "projects/blogify.png",
+    "description": "Project made to learn Single page application.",
+    "skills": ["React","Node","Mongodb","Express"],
+    "demo": "https://blog-app-mern-client-six.vercel.app/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Restaurant Website",
+    "imageSrc": "projects/sushiman.png",
+    "description": "This is a project made to learn With Animations.",
+    "skills": ["Html", "Css", "Animation", "Js"],
+    "demo": "https://sushiman-six.vercel.app/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Current Weather",
+    "imageSrc": "projects/weather.png",
+    "description": "Display current weather for any country using Api's",
+    "skills": ["Javascript", "Api", "Bootstrap","CDN"],
+    "demo": "https://marvelous-profiterole-84091a.netlify.app/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "E-commerce App",
+    "imageSrc": "projects/E-commerce.png",
+    "description": "E-commerce App with Cart Functionality",
+    "skills": ["React", "Api", "Bootstrap","context"],
+    "demo": "https://deluxe-tapioca-a2ce8c.netlify.app/",
+    "source": "https://www.github.com"
+  }
+]

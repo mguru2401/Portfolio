@@ -1,0 +1,101 @@
+@import '../../var.css';
+
+.container{
+   margin-top: 76px;
+   color: var(--color-text);
+   display: flex;
+   flex-direction: column;
+}
+
+.title{
+   font-size: 35px;
+   font-weight: 700;
+   letter-spacing: 1.75px;
+   text-transform: uppercase;
+   margin-top: 50px;
+   text-align: center;
+}
+
+
+.Projects{
+   margin-top: 37px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+   width: 100%;
+}
+
+
+.cardContainer{
+   display: flex;
+   flex-direction: column;
+   border-radius: 10px;
+   background: linear-gradient(180deg,#576cbc 0%,#1325a3 100%);
+   box-shadow: 0 16px 14px 0 #04152d;
+   padding: 18px 24px;
+   max-width: 345px;
+   margin-top: 20px;
+   margin-left: 40px;
+   height: 550px;
+}
+
+
+.cardImage{
+   margin-bottom: 26px;
+   border-radius: 8px;
+}
+
+.cardTitle{
+   font-size: 25px;
+   font-weight: 700;
+}
+
+.cardDescription{
+   margin-top: 6px;
+   font-size: 25px;
+   font-weight: 400;
+}
+
+.skills{
+   width: 100%;
+   margin-top: 14px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 7px;
+   list-style: none;
+}
+
+.skill{
+   font-size: 25px;
+   font-weight: 400;
+   border-radius: 100px;
+   background: var(--color-dark);
+   padding: 2px 22px;
+}
+
+.links{
+   width: 100%;
+   margin-top: 26px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.link{
+   text-decoration: none;
+   color: var(--color-text);
+   font-size: 30px;
+   font-weight: 600;
+   border-radius: 100px;
+   background: var(--color-primary);
+   padding: 1px 22px;
+}
+
+@media screen and (max-width: 830px) {
+   .cardContainer{
+      margin-right: 40px;
+   }
+}
